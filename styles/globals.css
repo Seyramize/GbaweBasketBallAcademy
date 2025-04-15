@@ -92,3 +92,16 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes bounce-ball {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-bounce-ball {
+  animation: bounce-ball 2s infinite ease-in-out;
+}
