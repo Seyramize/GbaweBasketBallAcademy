@@ -62,6 +62,51 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section
+        className="py-20 bg-white bg-cover bg-center"
+        style={{ backgroundImage: "url('/path-to-your-image.jpg')" }}
+      >
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 bg-white/80 p-6 rounded-lg">
+            <h3 className="text-3xl md:text-3xl font-bold mb-4">
+              Why Train With Us?
+            </h3>
+            <div className="relative">
+              {/* Basketball Animation */}
+              <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+                <div className="animate-bounce-ball absolute left-0 top-1/2 transform -translate-y-1/2">
+                  <Image
+                    src=""
+                    alt="Basketball"
+                    width={50}
+                    height={50}
+                    className="inline-block"
+                  />
+                </div>
+                <div className="animate-bounce-ball absolute right-0 top-1/2 transform -translate-y-1/2">
+                  <Image
+                    src="/basketball.png"
+                    alt="Basketball"
+                    width={50}
+                    height={50}
+                    className="inline-block"
+                  />
+                </div>
+              </div>
+
+              {/* Section Content */}
+              <div className="text-gray-600 max-w-4xl mx-auto">
+                <ul className="list-disc list-inside text-left text-xl font-bold">
+                  <li>Hunter's Training Curriculum - A unique skill-building system rooted in discipline and execution.</li>
+                  <li>Elite Coaching - Mentors who care about your growth both on and off the court.</li>
+                  <li>Pathway to Excellence - From Gbawe to Global courts.</li>
+                  <li>Team Culture - Built on unity, respect, and the hunter's spirit.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
